@@ -1,0 +1,83 @@
+[
+  {
+    "id": 2,
+    "name": "用户管理",
+    "url": "/menu/userManager.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 0
+
+  },
+  {
+    "id": 3,
+    "name": "部门管理",
+    "class": "glyphicon-user",
+    "leaf": true,
+    "disabled": false,
+    "seq": 1
+  },
+  {
+    "id": 4,
+    "name": "角色管理",
+    "url": "/menu/roleManager.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 2
+  },
+  {
+    "id": 5,
+    "name": "菜单管理",
+    "url": "/menu/menuManager.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 3
+  },
+  {
+    "id": 6,
+    "name": "SQL监控",
+    "url": "/menu/sqlListener.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 4
+  },
+  {
+    "id": 7,
+    "name": "定时任务",
+    "url": "/menu/timeTask.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 5
+  },
+  {
+    "id": 8,
+    "name": "参数管理",
+    "url": "/menu/parameterManager.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 6
+  },
+  {
+    "id": 9,
+    "name": "文件上传",
+    "url": "/menu/fileUpload.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 7
+  },
+  {
+    "id": 10,
+    "name": "字典管理",
+    "url": "/menu/dictoryManager.do",
+    "leaf": true,
+    "disabled": false,
+    "seq": 8
+  },
+  {
+    "id": 11,
+    "name": "系统日志",
+    "url": "/menu/systemLog.do",
+    "leaf": true,
+    "disabled": true,
+    "seq": 9
+  }
+]

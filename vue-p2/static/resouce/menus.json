@@ -1,0 +1,146 @@
+{
+  "code": 1,
+  "message": "数据正常",
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "label": "系统管理",
+      "url": "/menu/systemManager.do",
+      "disabled": false,
+      "isLeaf": false,
+      "children": [
+        {
+          "id": 2,
+          "label": "用户管理",
+          "url": "/menu/userManager.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 3,
+          "label": "部门管理",
+          "url": "/menu/departmentManager.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 4,
+          "label": "角色管理",
+          "url": "/menu/roleManager.do",
+          "disabled": false,
+          "isLeaf": false,
+          "children": [
+            {
+              "id": 15,
+              "label": "添加角色",
+              "url": "/menu/roleManager/add.do",
+              "disabled": false,
+              "isLeaf": true,
+              "children": null
+            },
+            {
+              "id": 16,
+              "label": "修改角色",
+              "url": "/menu/roleManager/modify.do",
+              "disabled": false,
+              "isLeaf": true,
+              "children": null
+            },
+            {
+              "id": 17,
+              "label": "删除角色",
+              "url": "/menu/roleManager/delete.do",
+              "disabled": false,
+              "isLeaf": true,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "label": "菜单管理",
+          "url": "/menu/menuManager.do",
+          "disabled": false,
+          "isLeaf": false,
+          "children": [
+            {
+              "id": 12,
+              "label": "添加菜单",
+              "url": "/menu/menuManager/add.do",
+              "disabled": false,
+              "isLeaf": true,
+              "children": null
+            },
+            {
+              "id": 13,
+              "label": "修改菜单",
+              "url": "/menu/menuManager/modify.do",
+              "disabled": false,
+              "isLeaf": true,
+              "children": null
+            },
+            {
+              "id": 14,
+              "label": "删除菜单",
+              "url": "/menu/menuManager/delete.do",
+              "disabled": false,
+              "isLeaf": true,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "label": "SQL监控",
+          "url": "/menu/sqlListener.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 7,
+          "label": "定时任务",
+          "url": "/menu/timeTask.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 8,
+          "label": "参数管理",
+          "url": "/menu/parameterManager.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 9,
+          "label": "文件上传",
+          "url": "/menu/fileUpload.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 10,
+          "label": "字典管理",
+          "url": "/menu/dictoryManager.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        },
+        {
+          "id": 11,
+          "label": "系统日志",
+          "url": "/menu/systemLog.do",
+          "disabled": false,
+          "isLeaf": true,
+          "children": null
+        }
+      ]
+    }
+  ]
+}
